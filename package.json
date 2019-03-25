@@ -1,0 +1,30 @@
+{
+  "name": "express-mong",
+  "version": "0.8.0",
+  "description": "Mongoose wrapper to inject request object into mongoose Query, Document, and Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "mongoose",
+    "middleware",
+    "hooks",
+    "wrapper",
+    "request",
+    "req",
+    "query",
+    "document",
+    "audit"
+  ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "Junmin Ahn <app.smartahn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
