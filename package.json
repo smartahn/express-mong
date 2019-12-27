@@ -2,7 +2,6 @@
   "name": "express-mong",
   "version": "0.8.0",
   "description": "Mongoose wrapper to inject request object into mongoose Query, Document, and Hooks",
-  "main": "index.js",
   "scripts": {
     "test": "node test"
   },
@@ -16,6 +15,18 @@
     "query",
     "document",
     "audit"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smartahn/express-mong"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js",
+    "model-wrapper.js",
+    "mong-data.js"
   ],
   "engines": {
     "node": ">= 6.0.0"
